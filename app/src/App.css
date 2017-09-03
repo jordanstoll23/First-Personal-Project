@@ -1,0 +1,46 @@
+
+
+ @keyframes  rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.img1 {
+  animation-name: rotate;
+  animation-duration:5s;
+  margin:auto;
+  display:block;
+}
+
+.input-wrapper{
+  text-align: center;
+  font-weight: 200;
+  margin-top: 50px;
+}
+
+h1 {
+  height:200px;
+  width:650px;
+  margin: 50px auto 0;
+  background: linear-gradient(to bottom right, purple, blue);
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+body{
+  background: #0D0D0D;
+}
+query {
+display:flex;
+ left:200px;
+}
+
+.div3 {
+  height: 400px;
+  width:100%;
+}
+
+.div4 {
+  margin:auto;
+  width:100%;
+}
