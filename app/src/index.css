@@ -1,5 +1,59 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(-360deg); } }
+.img1 {
+  animation-name: rotate;
+  animation-duration: 5s;
+  margin: auto; }
+
+.input-wrapper {
+  text-align: center;
+  font-weight: 200;
+  margin: auto; }
+
+h1 {
+  height: 200px;
+  max-width: 650px;
+  width: 100%;
+  margin: 50px auto 0;
+  background: linear-gradient(to bottom right, purple, blue);
+  color: white;
+  text-align: center;
+  padding: 20px; }
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+  background: #0D0D0D; }
+
+.div3 {
+  height: 400px;
+  max-width: 100%;
+  align-items: center; }
+
+.div4 {
+  margin: auto;
+  width: 100%;
+  display: flex; }
+
+.div5 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch; }
+
+.gifs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap; }
+
+.box {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 5px; }
+
+/*# sourceMappingURL=index.css.map */

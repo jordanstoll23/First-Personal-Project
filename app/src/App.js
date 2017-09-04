@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-
 import axios from 'axios';
 
 class App extends Component {
@@ -54,7 +53,7 @@ class App extends Component {
         <div className="input-wrapper">
           <div className="div3">
             <h1 className="title">Welcome to Giphy search </h1>
-            <input type="text" className="query" value={this.state.value} onChange={(event) => {this.handleChange(event.target.value)}}/>
+            <input type="text" className="box" value={this.state.value} onChange={(event) => {this.handleChange(event.target.value)}}/>
             <button type="button" className="btn btn-primary" onClick={() => {this.handleClick()} }>submit</button>
           </div>
           <div>
