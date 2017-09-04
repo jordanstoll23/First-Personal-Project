@@ -29,16 +29,16 @@ class App extends Component {
   }
 
 
-//  componentDidMount(){
-//   var urlUpdater= this.baseUrl + this.newSearchTerm + this.baseUrl2;
-//   console.log(urlUpdater);
-//   axios.get(urlUpdater)
-//   .then((response) => { 
-//     this.setState({
-//       bundleOfGifs:response.data.data
-//     });
-//   });
-//  }
+ componentDidMount(){
+  var urlUpdater= this.baseUrl + this.newSearchTerm + this.baseUrl2;
+  console.log(urlUpdater);
+  axios.get(urlUpdater)
+  .then((response) => { 
+    this.setState({
+      bundleOfGifs:response.data.data
+    });
+  });
+ }
   
  
  render() {
